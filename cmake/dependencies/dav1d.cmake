@@ -30,7 +30,7 @@ SET(_include_dir
 )
 IF(RV_TARGET_LINUX)
   SET(_lib_dir
-      ${_install_dir}/lib64
+      ${_install_dir}/lib
   )
 ELSE()
   SET(_lib_dir
